@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* this is navbar styles */
+.menu-container {
+  background-color: rgb(32, 32, 32);
+  padding: 20px 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  width: 120px;
+}
+.menu ul {
+  display: flex;
+}
+.menu li {
+  list-style-type: none;
+  margin-right: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.menu li:hover {
+  color: blue;
+  transition: 1s;
+}
+/* this is banner styles */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  align-items: center;
+  color: white;
+  background-image: url("../assets/images/background.png"),
+    linear-gradient(45deg, rgb(41, 41, 41), rgb(53, 53, 53));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+.title {
+  font-size: 55px;
+  font-weight: bold;
+}
+.desc {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.btn {
+  padding: 15px 20px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: red;
+  background-color: white;
+  transition: 2s;
+}
+.image {
+  width: 300px;
+}
+/* this is about us styles */
+.about-us {
+  margin-top: 50px;
+}
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 50px;
+}
+.about-img,
+.about-info {
+  width: 50%;
+}
+.title-center {
+  text-align: center;
+}
+.desc-title {
+  font-size: 30px;
+}
+/* this is our service styles */
+.service {
+  margin-top: 50px;
+}
+.card-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.card-item {
+  width: 250px;
+  height: 300px;
+  box-shadow: 4px 4px 4px gray;
+  color: white;
+  text-align: center;
+  background-color: rgb(25, 25, 25);
+  border-radius: 5px;
+  padding: 30px 20px;
+}
+.icon {
+  width: 70px;
+}
+.card-btn {
+  background-color: gray;
+}
+/* this is footer styles */
+.footer-container {
+  margin-top: 50px;
+  background-color: rgb(32, 32, 32);
+  padding: 50px;
+  color: white;
+}
+.footer-item {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  width: 30%;
+}
+.footer-desc {
+  padding-top: 10px;
+  font-size: 16px;
+}
+.link,
+.support,
+.information {
+  width: 20%;
+}
+.li-title {
+  font-size: 20px;
+}
+.footer-item li {
+  list-style-type: none;
+  padding-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.footer-item li:hover {
+  color: blue;
+  transition: 1s;
+}
+.copyright {
+  margin-top: 50px;
+  text-align: center;
+}
+hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
